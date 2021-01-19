@@ -49,3 +49,4 @@ The exercise is to practice working with `abstract` and `virtual` properties as 
     + `Wombat`
     + `HoneyBadger`
   + Each concrete class defines the `abstract` properties and in some cases `overrides` the `virtual` properties.
+  
