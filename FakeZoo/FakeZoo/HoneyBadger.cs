@@ -4,10 +4,9 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class HoneyBadger : OfThisRealm
+    class HoneyBadger : OfThisRealm ,ICanBurrow
     {
         public override bool Mammal { get; set; }
-        public override bool Flight { get; set; }
         public override int Eyes { get; set; }
         public override int Legs { get; set; }
         public int F_cks_Given { get; set; }
@@ -15,7 +14,6 @@ namespace FakeZoo
         public HoneyBadger()
         {
             Mammal = true;
-            Flight = false;
             Eyes = 2;
             Legs = 4;
             Wings = false;
@@ -36,6 +34,16 @@ namespace FakeZoo
         public string Dont_Give_A_F_CK()
         {
             return "Honey Badger just don't care";
+        }
+
+        public string DigDown()
+        {
+            return "Honey Badger will dig a hole, it doesn't care";
+        }
+
+        public string Surface()
+        {
+            return "Go top side to do bad assery";
         }
     }
 }
