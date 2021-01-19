@@ -7,24 +7,25 @@ namespace FakeZoo
     public abstract class Animal
     {
         public abstract int Eyes { get; set; }
-        public abstract bool Wings { get; set; }
+        public virtual bool Wings { get; set; } = false;
         public abstract int Legs { get; set; }
-        public abstract string Diet { get; set; }
+        public virtual string Diet { get; set; } = "food";
 
-        public virtual void Eat()
+        public virtual string Eat()
         {
-            Console.WriteLine("The animal eats");
+            //Console.WriteLine("The animal eats");
+            return "The animal eats";
         }
 
-        public virtual void Sleep()
+        public virtual string Sleep()
         {
-            Console.WriteLine("The animal sleeps");
+            return "The animal sleeps";
 
         }
 
-        public virtual void Sound()
+        public virtual string Sound()
         {
-            Console.WriteLine("The animal makes a sound");
+            return "The animal makes a sound";
         }
     }
 }

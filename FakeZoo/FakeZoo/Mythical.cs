@@ -10,8 +10,8 @@ namespace FakeZoo
         public abstract int Horns { get; set; }
         public abstract string OriginRealm { get; set; }
 
-        public abstract void MagicPower();
-        public abstract void Speech();
+        public abstract string MagicPower();
+        public abstract string Speech();
 
         
 

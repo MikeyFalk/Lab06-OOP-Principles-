@@ -21,31 +21,30 @@ namespace FakeZoo
             Immortal = true;
             Horns = 1;
             OriginRealm = "Rainbowland";
-            Eyes = 2;
-            Wings = false;
+            Eyes = 2;            
             Legs = 4;
             Diet = "Rainbow ice cream";
         }
 
-        public override void MagicPower()
+        public override string MagicPower()
         {
             
-            Console.WriteLine("tricks humans");
+            return "tricks humans";
         }
 
-        public override void Speech()
+        public override string Speech()
         {
-            Console.WriteLine("Very Intelligent");
+            return "Very Intelligent";
         }
 
-        public void GrantWishes()
+        public string GrantWishes()
         {
-            Console.WriteLine("You only get 3 wishes");
+            return "You only get 3 wishes";
         }
 
-        public void PoopRainbows()
+        public string PoopRainbows()
         {
-            Console.WriteLine("Its true! they poop rainbows");
+            return "Its true! they poop rainbows";
         }
     }
 }
