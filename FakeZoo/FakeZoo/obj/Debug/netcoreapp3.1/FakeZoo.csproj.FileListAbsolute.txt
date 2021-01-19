@@ -1,0 +1,13 @@
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.exe
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.deps.json
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.runtimeconfig.json
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.runtimeconfig.dev.json
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.dll
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\bin\Debug\netcoreapp3.1\FakeZoo.pdb
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.csprojAssemblyReference.cache
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.AssemblyInfoInputs.cache
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.AssemblyInfo.cs
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.csproj.CoreCompileInputs.cache
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.dll
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.pdb
+C:\Users\falk4\Projects\codefellows\dotnet401\labs\Lab06-OOP-Principles-\FakeZoo\FakeZoo\obj\Debug\netcoreapp3.1\FakeZoo.genruntimeconfig.cache
