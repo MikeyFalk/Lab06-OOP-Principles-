@@ -28,7 +28,6 @@ namespace FakeZoo
 
         public override string MagicPower()
         {
-            
             return "tricks humans";
         }
 

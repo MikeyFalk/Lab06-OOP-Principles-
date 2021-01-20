@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class Dragon : Mythical, ICanFly, ICanBurrow
+    public class Dragon : Mythical, ICanFly, ICanBurrow
     {
         public override bool Immortal { get; set; }
         public override int Horns { get; set; }
@@ -29,6 +29,16 @@ namespace FakeZoo
         public override string MagicPower()
         {
             return "soul meld";
+        }
+
+        public string Burninate()
+        {
+            return "Trogdor burninates the countryside";
+        }
+
+        public string HordeTreasure()
+        {
+            return "Dragons don't eat people, they eat treasure.  That's why they're always on a big pile of if it";
         }
 
         public override string Speech()

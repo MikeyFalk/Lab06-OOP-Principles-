@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class Wombat : OfThisRealm , ICanBurrow
+    public class Wombat : OfThisRealm , ICanBurrow
     {
         public override bool Mammal { get; set; }
         public override int Legs { get; set; }
@@ -14,7 +14,6 @@ namespace FakeZoo
         public Wombat()
         {
             Mammal = true;
-            Flight = false;
             Legs = 2;
             Eyes = 2;
             HasPouch = true;

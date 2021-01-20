@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class Albatross : OfThisRealm , ICanFly
+    public class Albatross : OfThisRealm , ICanFly
     {
         public override bool Mammal { get ; set ; }
         public override int Eyes { get ; set ; }

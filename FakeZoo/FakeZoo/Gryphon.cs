@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class Gryphon : Mythical , ICanFly
+    public class Gryphon : Mythical , ICanFly
     {
         public override bool Immortal { get; set; }
         public override int Horns { get; set; }
