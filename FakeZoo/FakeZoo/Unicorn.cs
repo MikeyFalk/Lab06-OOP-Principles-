@@ -11,7 +11,6 @@ namespace FakeZoo
         public override int Horns { get; set; }   
         public override string OriginRealm { get; set; }
         public override int Eyes { get; set; }
-        public override bool Wings { get; set; }
         public override int Legs { get; set; }
         public override string Diet { get; set; }
 

@@ -151,8 +151,45 @@ namespace FakeZooUnitTests
             Assert.Equal("Cobra's, they don't care", result);
 
         }
+
+        /// <summary>
+        /// Assert another time that interfaces are working by making the dragon can Soar() via ICanFly
+        /// </summary>
+        [Fact]
+        public void Test_Dragon_Interface_For_Fly_Works()
+        {
+            Dragon trogdor = new Dragon();
+            string result = trogdor.Soar();
+
+            Assert.Equal("Soar through the sky, terrifying villagers", result);
+        }
+
+        /// <summary>
+        /// Assert Inheritance by checking bool Wings, a non-overridden virtual prop from Animal
+        /// </summary>
+        [Fact]
+
+        public void Test_Unicorn_Inheritance_Wings()
+        {
+            Unicorn sparkly = new Unicorn();
+            bool results = sparkly.Wings;
+
+            Assert.False(results);
+        }
+
+        /// <summary>
+        /// Prove that a method has been overridden by comparing it's return to the default value
+        /// </summary>
+        public void Test_Method_Override_For_Wombat()
+        {
+            Wombat willie = new Wombat();
+            string results = willie.Eat();
+          
+            Assert.NotEqual("The animal eats", results);
+        }
+
     }
 
-
 }
-
+//Wombats eat veggimite sandwiches
+//The animal eats
