@@ -180,6 +180,7 @@ namespace FakeZooUnitTests
         /// <summary>
         /// Prove that a method has been overridden by comparing it's return to the default value
         /// </summary>
+        [Fact]
         public void Test_Method_Override_For_Wombat()
         {
             Wombat willie = new Wombat();
@@ -188,8 +189,20 @@ namespace FakeZooUnitTests
             Assert.NotEqual("The animal eats", results);
         }
 
+        /// <summary>
+        /// Prove that Honey badger is an Animal by testing it's type
+        /// </summary>
+        [Fact]
+        public void Test_To_Prove_HoneyBadger_Is_An_Animal()
+        {
+            HoneyBadger henry = new HoneyBadger();
+
+            bool result = henry is Animal;
+
+            Assert.True(result);
+
+        }
     }
 
 }
-//Wombats eat veggimite sandwiches
-//The animal eats
+
