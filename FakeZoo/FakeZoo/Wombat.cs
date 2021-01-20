@@ -4,10 +4,9 @@ using System.Text;
 
 namespace FakeZoo
 {
-    class Wombat : OfThisRealm
+    public class Wombat : OfThisRealm , ICanBurrow
     {
         public override bool Mammal { get; set; }
-        public override bool Flight { get; set; }
         public override int Legs { get; set; }
         public override int Eyes { get; set; }
         public bool HasPouch { get; set; }
@@ -15,7 +14,6 @@ namespace FakeZoo
         public Wombat()
         {
             Mammal = true;
-            Flight = false;
             Legs = 2;
             Eyes = 2;
             HasPouch = true;
@@ -39,6 +37,16 @@ namespace FakeZoo
         public string PoopsCubes()
         {
             return "Wombat dung is shaped like a cube and no one knows why";
+        }
+
+        public string DigDown()
+        {
+            return "Wombats are great at burrowing and even share their burrows with other animals";
+        }
+
+        public string Surface()
+        {
+            return "Pop up for some sunlight";
         }
     }
 }
